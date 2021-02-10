@@ -8,7 +8,7 @@
 4. `set_link()`For details, please refer to [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-5-screen-display/3-5-7-add-link-set_link-usdcol_name) 
 5. E.g:
 
-   ```text
+   ```php
    $Model->set_link('action_title', 'main.php', ['op' => 'show', 'action_id']);
    ```
 

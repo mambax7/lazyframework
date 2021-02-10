@@ -2,7 +2,7 @@
 
 1. Since the front desk is for registration, there should be a "Register" button, so we continue to add:
 
-   ```text
+   ```php
    $Model->add_button('Register', '', ['op' => 'create', 'action_id'], ['class' => 'btn btn-sm btn-primary'], ['index', 'show']);
    ```
 

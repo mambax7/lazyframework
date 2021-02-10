@@ -2,7 +2,7 @@
 
 1. The appearance of the table has certain preset values. If you want to adjust the appearance yourself, you can use the method of setting attributes:
 
-   ```text
+   ```php
    $Model->set_attr('table', ['class' => 'table table-hover table-striped table-sm']);
    $Model->set_attr('tr1', ['class' => 'bg-warning white']);
    ...略...

@@ -6,7 +6,7 @@
 2. At present, our classification still displays a number \(whether in a list or a single data\), so it is not easy to understand, it should directly display the name of the classification: In addition, the "Enable or Not" part also displays a number. ![](https://campus-xoops.tn.edu.tw/uploads/tad_book3/image/47/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2020-05-28T13-12-43.230Z.png)  ![](https://campus-xoops.tn.edu.tw/uploads/tad_book3/image/47/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2020-05-28T13-15-27.215Z.png)
 3. We can use it `replace('Replaced field', $replacementValueArray)`to replace the displayed data.
 
-   ```text
+   ```php
    $cate_arr = $Model->get_arr('my_action_cate', 'cate_id', 'cate_title');
    $enable_arr = [1 => 'Enabled', 0 => 'Disabled'];
    ...略...

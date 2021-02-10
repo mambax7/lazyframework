@@ -6,7 +6,7 @@
 2. But because it is in the foreground, when the button is clicked, editing or adding will be done in the foreground.
 3. If we hope to edit and add a button to change the link to the background \(safer, but also more simple\), and even remove the delete button, you can `set_func($func_name, $to)`do:
 
-   ```text
+   ```php
    $Model->set_func('create', 'admin/main.php');
    $Model->set_func('edit', 'admin/main.php');
    $Model->set_func('destroy', false);

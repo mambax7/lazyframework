@@ -5,7 +5,7 @@
 3. For `use_ckeditor($col_name)` details, please refer to: see [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-4-form-component/3-4-3-wysiwyg-editor-use_ckeditor-usdcol_name)
 4. The applied field is "Activity Description", and its field name is `action_content`; to set the array part, use to `setHeight`set the height of the editing area, and use the `setToolbarSet`setting toolbar \(the number of functions varies\)
 
-   ```text
+   ```php
    $Model->use_ckeditor('action_content', ['setHeight' => 150, 'setToolbarSet' => 'tadSimple']);
    ```
 

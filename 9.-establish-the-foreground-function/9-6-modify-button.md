@@ -2,7 +2,7 @@
 
 1. "Adding information" looks weird and it is not easy for ordinary users to understand, so it is more straightforward to change to "Register".
 
-   ```text
+   ```php
    $ApplyModel->set_submit('op', 'store', 'Register', 'fa-plus');
    ```
 

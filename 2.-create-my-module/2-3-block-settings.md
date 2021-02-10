@@ -8,7 +8,7 @@ description: >-
 
 Each setting of a group will generate an applicable block in the background block \(Of course, you must also generate the block program and template file by yourself in the future. The same, keep the comment status if you don’t need it, or you need it later Set it again\):
 
-```text
+```php
 $TadMod->add_blocks('action_list', 'Activities at a glance', '', ['Number of displayed data' => 5]);
 ```
 

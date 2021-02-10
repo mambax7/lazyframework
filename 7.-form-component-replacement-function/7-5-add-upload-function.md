@@ -6,7 +6,7 @@
 4. For  `set_file($col_name)`details, please refer to: see [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-4-form-component/3-4-6-set-as-upload-tool-set_file-usdcol_name)
 5. To let the system know who these files belong to, it is necessary to bind a field. We can bind the event number, that is `action_id`, in this way, different events will present different files.
 
-   ```text
+   ```php
    $Model->set_file('action_id');
    ```
 

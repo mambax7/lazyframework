@@ -5,7 +5,7 @@
 1. edit`main.php`
 2. To add pages, you can simply use `pagebar(number of Display Content)`
 
-   ```text
+   ```php
    $Model->pagebar(10);
    ```
 

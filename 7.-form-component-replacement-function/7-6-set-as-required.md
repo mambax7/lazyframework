@@ -5,7 +5,7 @@
 1. edit`admin/main.php`
 2. If you want "Activity Title", "Activity Date", and "Registration Deadline" to be required, and the "Activity Title" has at least three characters and a maximum of 30 characters, then please set it like this:
 
-   ```text
+   ```php
    $Model->set_require('action_title', ['minSize' => 3, 'maxSize' => 30]);
    $Model->set_require('action_date');
    $Model->set_require('action_end_date');

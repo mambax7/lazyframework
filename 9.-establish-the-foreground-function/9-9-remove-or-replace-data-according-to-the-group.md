@@ -2,7 +2,7 @@
 
 1. If a non-administrator can also see the phone number or name of the applicant, it may be a big deal... Therefore, we can see the phone number in other groups except the administrator, and the name can only see the partial name
 
-   ```text
+   ```php
    case "show":
        ...略...
        $ApplyModel->disable('phone', ['index'], [1]);
@@ -18,7 +18,7 @@
 
 2. Regarding the judgment group to remove a certain field:
 
-   ```text
+   ```php
    $ApplyModel->disable('phone', ['index'], [1]);
    ```
 
@@ -29,7 +29,7 @@
 3. For `disable()`reference: see [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-5-screen-display/3-5-6-fields-not-displayed-disable-usdcol_name)
 4. Regarding the judgment group replacing the field content with a function \(rather than specifying a replacement value\):
 
-   ```text
+   ```php
    $ApplyModel->replace('uid', [], ['substr_replace' => ['this', '〇', 3, 3]], [1]);
    ```
 

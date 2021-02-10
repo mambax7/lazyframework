@@ -2,7 +2,7 @@
 
 1. Can I sign up without logging in? Can the visitor delete the information if they enter the URL? That’s too scary, so we can set which functions allow which groups to use
 
-   ```text
+   ```php
    $ApplyModel->allow(['create', 'edit', 'store', 'update', 'destroy'], [2]);
    ```
 

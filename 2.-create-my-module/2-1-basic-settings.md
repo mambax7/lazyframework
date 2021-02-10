@@ -13,7 +13,7 @@ description: Set the basic settings of xoops_version.php
 
 Be sure to fill in, the most basic settings of the module:
 
-```text
+```php
 $TadMod->setup('Activity registration', '1.0', '2020/05/31', 'tad0616@gmail.com', 'Tad');
 ```
 

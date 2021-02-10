@@ -4,7 +4,7 @@
 
 1. If you click "I want to register", then `create`this action will be executed , that is, a registration profile will be created. It should be noted that this `create`is a `$ApplyMode`model object, so that the information can be written in the `my_action_apply`registration data form.
 
-   ```text
+   ```php
    ...略...
    $ApplyModel = new TadModData('my_action_apply');
 
@@ -17,7 +17,7 @@
 
 2. Remember to modify the template `template/op_index_create.tpl`\(and the edited template `template/op_index_edit.tpl`\), the screen will appear correctly:
 
-   ```text
+   ```php
    <{$toolbar}>
 
    <{$my_action_apply_form}>
@@ -28,7 +28,7 @@
 5. In addition, the "registration time" is not recommended for users to fill in by themselves. It is inhumane, and it is troublesome to fill in incorrectly. Therefore, it can also be hidden.
 6. We use it `set_hidden($col_name, $def_val)`to achieve this. For detailed usage, please see [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-4-form-component/3-4-4-hidden-column-set_hidden-usdcol_name-usddef_val): 
 
-   ```text
+   ```php
    ...略...
    $ApplyModel = new TadModData('my_action_apply');
    $ApplyModel->set_hidden('action_id', $clean['action_id']);

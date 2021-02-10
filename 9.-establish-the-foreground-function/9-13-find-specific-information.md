@@ -2,7 +2,7 @@
 
 1. If you log in as a general user, then go to register, and then return to the registration page after registration, you will find that the system still stupidly appears in the registration box. Generally speaking, if you have already registered, we will usually show the existing registered information, or directly show the modification form to allow users to modify the registration information. So we can modify it like this:
 
-   ```text
+   ```php
    case "create":
        $apply = $ApplyModel->find(['uid']);
        if ($apply) {

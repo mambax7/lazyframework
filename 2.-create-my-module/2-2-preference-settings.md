@@ -8,7 +8,7 @@ description: >-
 
 Each set of settings will generate a set of preferences in the background preferences \(keep annotated if you don't need them, or you can set them again later\):
 
-```text
+```php
 $TadMod->add_config('show_num', 'Number of data displayed per page', '', 'textbox', 'int', 20);
 ```
 

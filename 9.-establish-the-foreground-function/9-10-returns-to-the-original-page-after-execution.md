@@ -2,7 +2,7 @@
 
  After deleting or editing the registration, the default will return to the list instead of the original viewing single event page \( `index.php?op=show&action_id=Action ID`\), which is a bit awkward, so you can modify `header("location:xxx")`the location of \( \) after saving, updating, and deleting
 
-```text
+```php
 case "edit":
     $ApplyModel->edit($clean['apply_id']);
     break;

@@ -52,5 +52,4 @@
 * [9-11 Set allowed groups](9.-establish-the-foreground-function/9-11-set-allowed-groups.md)
 * [9-12 Setting list appearance](9.-establish-the-foreground-function/9-12-setting-list-appearance.md)
 * [9-13 Find specific information](9.-establish-the-foreground-function/9-13-find-specific-information.md)
-* [Untitled](9.-establish-the-foreground-function/untitled-1.md)
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [lazyframeworkapi](README.md)
+* [Jill Lazy Framework](README.md)
 * [1. About the lazy framework](1.-about-the-lazy-framework.md)
 
 ## 2. Create my module

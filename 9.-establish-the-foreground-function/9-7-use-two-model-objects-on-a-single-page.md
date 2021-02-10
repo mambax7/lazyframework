@@ -21,5 +21,7 @@
    <{$my_action_apply_index}>
    ```
 
-4. Because you are using `$ApplyModel->index();`, in other words, `my_action_apply`a `index`list, the framework will automatically generate a `<{$my_action_apply_index}>`template label for application, and the label will list all the registration lists. ![](https://campus-xoops.tn.edu.tw/uploads/tad_book3/image/47/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2020-06-01T12-29-00.382Z.png)
+4. Because you are using `$ApplyModel->index();`, in other words, `my_action_apply`a `index`list, the framework will automatically generate a `<{$my_action_apply_index}>`template label for application, and the label will list all the registration lists. 
+
+![](../.gitbook/assets/image%20%288%29.png)
 

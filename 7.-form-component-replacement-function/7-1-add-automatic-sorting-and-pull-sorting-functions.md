@@ -3,7 +3,7 @@
 
 
 1. edit`admin/cate.php`
-2. Just at the time of publication classification, sorting themselves to fill in, and does not automatically take the maximum, in addition, it can not be easy to sort of pull, then you can use `set_sort($col_name)`to add this feature, please refer to the detailed description: [HTTPS: // campus- xoops.tn.edu.tw/modules/tad\_book3/page.php?tbsn=48&tbdsn=1623](https://campus-xoops.tn.edu.tw/modules/tad_book3/page.php?tbsn=48&tbdsn=1623) .
+2. Just at the time of publication classification, sorting themselves to fill in, and does not automatically take the maximum, in addition, it can not be easy to sort of pull, then you can use `set_sort($col_name)`to add this feature, please refer to the detailed description: [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-4-form-component/3-4-7-set-as-sort-field-set_sort-usdcol_name)
 3. `my_action_cate`In, the field responsible for sorting records is `cate_sort`, so fill it in.
 
    ```text

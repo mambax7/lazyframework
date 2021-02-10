@@ -13,7 +13,7 @@
 ---
 
 * [3. Create data table mysql.sql](3.-create-data-table-mysql.sql.md)
-* [4. Set the background menu](4.-set-the-background-menu.md)
+* [4. Set the Admin menu](4.-set-the-background-menu.md)
 * [5. Admin homepage](5.-admin-homepage.md)
 * [6. Establish background classification management cate.php](6.-establish-background-classification-management-cate.php.md)
 

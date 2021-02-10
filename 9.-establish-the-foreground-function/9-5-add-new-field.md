@@ -19,7 +19,7 @@
    ...略...
    ```
 
-6. Finally, we add a required field and verify by phone, it will be more complete. [For](https://campus-xoops.tn.edu.tw/modules/tad_book3/page.php?tbsn=48&tbdsn=1624) verification, [please see here](https://campus-xoops.tn.edu.tw/modules/tad_book3/page.php?tbsn=48&tbdsn=1624) :
+6. Finally, we add a required field and verify by phone, it will be more complete. For verification, [please see API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-4-form-component/3-4-8-set-as-required-field-set_require-usdcol_name) :
 
    ```text
    $ApplyModel->set_require('phone', ['custom' => 'phone']);

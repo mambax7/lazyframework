@@ -3,12 +3,16 @@
 
 
 1. edit`admin/main.php`
-2. It can be used `uid_name()`to convert the user ID to the real name. For detailed usage, please refer to: [https://campus-xoops.tn.edu.tw/modules/tad\_book3/page.php?tbsn=48&tbdsn=1628](https://campus-xoops.tn.edu.tw/modules/tad_book3/page.php?tbsn=48&tbdsn=1628)
+2. It can be used `uid_name()`to convert the user ID to the real name. For detailed usage, please refer to: see [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-5-screen-display/3-5-4-change-uid-to-name-to-present-uid_name)
 3. Application example:
 
    ```text
    $Model->uid_name();
    ```
 
-4. So it will be replaced with real name ![](https://campus-xoops.tn.edu.tw/uploads/tad_book3/image/47/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2020-05-29T00-59-48.555Z.png) ![](https://campus-xoops.tn.edu.tw/uploads/tad_book3/image/47/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2020-05-29T01-07-38.715Z.png)
+4. So it will be replaced with real name 
+
+![](../.gitbook/assets/image%20%282%29.png)
+
+![](../.gitbook/assets/image%20%289%29.png)
 

@@ -1,6 +1,6 @@
 # 9-10 returns to the original page after execution
 
- After deleting or editing the registration, the default will return to the list instead of the original viewing single event page \( `index.php?op=show&action_id=活動編號`\), which is a bit awkward, so you can modify `header("location:xxx")`the location of \( \) after saving, updating, and deleting
+ After deleting or editing the registration, the default will return to the list instead of the original viewing single event page \( `index.php?op=show&action_id=Action ID`\), which is a bit awkward, so you can modify `header("location:xxx")`the location of \( \) after saving, updating, and deleting
 
 ```text
 case "edit":

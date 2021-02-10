@@ -3,13 +3,15 @@
 
 
 1. edit`main.php`
-2. To add pages, then simply use `pagebar(顯示內容數)`can
+2. To add pages, you can simply use `pagebar(number of Display Content)`
 
    ```text
    $Model->pagebar(10);
    ```
 
-   For `pagebar()`reference: [https://campus-xoops.tn.edu.tw/modules/tad\_book3/page.php?tbsn=48&tbdsn=1633](https://campus-xoops.tn.edu.tw/modules/tad_book3/page.php?tbsn=48&tbdsn=1633)  
+   For `pagebar()`reference: see [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-5-screen-display/3-5-1-set-pagebar)  
 
-3. However, the current data is too little to see the paging effect, but you can already see the paging tool below ![](https://campus-xoops.tn.edu.tw/uploads/tad_book3/image/47/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2020-05-29T05-46-58.268Z.png)
+3. However, the current data is too little to see the paging effect, but you can already see the paging tool below  
+
+![](../.gitbook/assets/image%20%285%29.png)
 

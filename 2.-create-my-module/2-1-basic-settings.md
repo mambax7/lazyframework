@@ -14,10 +14,8 @@ description: Set the basic settings of xoops_version.php
 Be sure to fill in, the most basic settings of the module:
 
 ```text
-$TadMod->setup('活動報名', '1.0', '2020/05/31', 'tad0616@gmail.com', 'Tad');
+$TadMod->setup('Activity registration', '1.0', '2020/05/31', 'tad0616@gmail.com', 'Tad');
 ```
-
-Copy
 
 For the complete method, please refer to: [https://campus-xoops.tn.edu.tw/modules/tad\_book3/page.php?tbsn=48&tbdsn=1638](https://campus-xoops.tn.edu.tw/modules/tad_book3/page.php?tbsn=48&tbdsn=1638)
 

@@ -11,8 +11,6 @@
        break;
    ```
 
-   Copy
-
    After adding, the administrator looks like this:  
    ![](https://campus-xoops.tn.edu.tw/uploads/tad_book3/image/47/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2020-06-01T14-54-23.691Z.png)  
    non-administrators look like this:  
@@ -24,20 +22,16 @@
    $ApplyModel->disable('phone', ['index'], [1]);
    ```
 
-   Copy
-
    The first parameter is to `phone`prevent the field from being displayed. The  
    second parameter is to specify which functions are not displayed. At present `index`, the  
    third parameter is an exception group array, that is, which groups are not displayed in the list. The group is not hidden. Fill in \[1\] to indicate that the administrator group is not replaced, and the phone can be seen.
 
-3. For `disable()`reference: [https://campus-xoops.tn.edu.tw/modules/tad\_book3/page.php?tbsn=48&tbdsn=1629](https://campus-xoops.tn.edu.tw/modules/tad_book3/page.php?tbsn=48&tbdsn=1629)
+3. For `disable()`reference: see [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-5-screen-display/3-5-6-fields-not-displayed-disable-usdcol_name)
 4. Regarding the judgment group replacing the field content with a function \(rather than specifying a replacement value\):
 
    ```text
    $ApplyModel->replace('uid', [], ['substr_replace' => ['this', '〇', 3, 3]], [1]);
    ```
-
-   Copy
 
    The first parameter is for the `uid`field, because it was applied before `uid_name()`, so the field value will become the name at this time.  
    The second parameter is not filled in. It was originally the corresponding value to be filled in, but because this is not a known value \(it knows what the name of the person who signed up will be called\), so leave it blank.  

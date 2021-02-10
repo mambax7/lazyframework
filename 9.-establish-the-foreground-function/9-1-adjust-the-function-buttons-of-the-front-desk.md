@@ -12,7 +12,9 @@
    $Model->set_func('destroy', false);
    ```
 
-   `set_func()`For a complete description of this, please refer to: [https://campus-xoops.tn.edu.tw/modules/tad\_book3/page.php?tbsn=48&tbdsn=1625](https://campus-xoops.tn.edu.tw/modules/tad_book3/page.php?tbsn=48&tbdsn=1625)
+   `set_func()`For a complete description of this, please refer to [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-4-form-component/3-4-9-reset-function-button-set_func-usdfunc_name) 
 
-4. In this way, the screen will be cleaner, and the button will be connected to the background: ![](https://campus-xoops.tn.edu.tw/uploads/tad_book3/image/47/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2020-05-29T08-11-43.273Z.png)
+4. In this way, the screen will be cleaner, and the button will be connected to the background: 
+
+![](../.gitbook/assets/image%20%284%29.png)
 

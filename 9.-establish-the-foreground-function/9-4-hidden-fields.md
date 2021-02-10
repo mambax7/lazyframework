@@ -26,7 +26,7 @@
 3. The screen currently looks like this: ![](https://campus-xoops.tn.edu.tw/uploads/tad_book3/image/47/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2020-06-01T03-24-16.975Z.png)
 4. It’s too funny to let applicants fill in the number by themselves. Besides, our link also brings the number to this page. Therefore, in fact, we can change the "Activity Number" field to a hidden form and change `action_id`the value Brought in automatically.
 5. In addition, the "registration time" is not recommended for users to fill in by themselves. It is inhumane, and it is troublesome to fill in incorrectly. Therefore, it can also be hidden.
-6. We use it `set_hidden($col_name, $def_val)`to achieve this. For detailed usage, please refer to: [https://campus-xoops.tn.edu.tw/modules/tad\_book3/page.php?tbsn=48&tbdsn=1620](https://campus-xoops.tn.edu.tw/modules/tad_book3/page.php?tbsn=48&tbdsn=1620)
+6. We use it `set_hidden($col_name, $def_val)`to achieve this. For detailed usage, please see [API Tutorial](https://xoops.gitbook.io/jill-lazy-framework-api/3.tadmoddata-class/3-4-form-component/3-4-4-hidden-column-set_hidden-usdcol_name-usddef_val): 
 
    ```text
    ...略...

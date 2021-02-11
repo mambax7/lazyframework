@@ -1,7 +1,5 @@
 # 7-2 Use the drop-down menu instead
 
-
-
 1. edit`admin/main.php`
 2. In the background activity management `main.php`, when adding, the "category" must fill in the category number by itself, which is very unfriendly. We can change it to a drop-down menu. ![](https://campus-xoops.tn.edu.tw/uploads/tad_book3/image/47/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2020-05-28T03-44-35.174Z.png)
 3. To use the drop-down menu instead, an array of options must be given, the format is:

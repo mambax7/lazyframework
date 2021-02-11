@@ -9,7 +9,7 @@
    $Model->use_ckeditor('action_content', ['setHeight' => 150, 'setToolbarSet' => 'tadSimple']);
    ```
 
-5. In this way, the "Activity Description" will be replaced by a WYSIWYG editor. 
+5. In this way, the "Activity Description" will be replaced by a WYSIWYG editor.
 
 ![](../.gitbook/assets/image%20%286%29.png)
 

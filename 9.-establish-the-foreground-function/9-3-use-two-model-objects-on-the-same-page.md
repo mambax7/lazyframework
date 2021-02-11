@@ -1,7 +1,5 @@
 # 9-3 Use two model objects on the same page
 
-
-
 1. The front page of the front desk is basically used for registration, and the registration is another data sheet, but because the front page needs to display the registration data and also allows users to register, we need to create another model object `$ApplyModel`responsible for registration and a `my_action_apply`data table Various related operations.
 
    ```php

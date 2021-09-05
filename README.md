@@ -1,2 +1,2 @@
-# Jill Lazy Framework
+# Lazy Framework
 
